@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.recipe-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.recipe-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.recipe-name:hover {
+  color: #4f46e5;
+}
+
+.recipe-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
